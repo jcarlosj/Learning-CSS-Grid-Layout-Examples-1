@@ -51,7 +51,10 @@
 }
 .box:nth-child(6) {
     background-color: #3e86bb;
-    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .box:nth-child(7) {
     background-color: #4698d4;
