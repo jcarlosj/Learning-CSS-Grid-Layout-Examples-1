@@ -22,6 +22,8 @@
 }
 .box:nth-child(2) {
     background-color: #183449;
+    grid-column: col-3 / col-4;
+    grid-row: row-1 / row-3;
 }
 .box:nth-child(3) {
     background-color: #204662;
