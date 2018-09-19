@@ -1,5 +1,9 @@
 /* Grid CSS */
 .wrapper {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 100px 100px 100px;
+
     border: 1px solid #999;
     padding: 10px;
 }
