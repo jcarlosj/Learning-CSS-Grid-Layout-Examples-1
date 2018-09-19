@@ -17,11 +17,13 @@
 }
 .box:nth-child(1) {
     background-color: #122838;
-    grid-column: col / span 2;
-    grid-row: row;
+    grid-column: col 1 / span 2;
+    grid-row: row 1;
 }
 .box:nth-child(2) {
     background-color: #183449;
+    grid-column: col 3 / col 4;
+    grid-row: row 1 / span 2;
 }
 .box:nth-child(3) {
     background-color: #204662;
