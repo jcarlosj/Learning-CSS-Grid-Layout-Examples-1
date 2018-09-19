@@ -17,6 +17,8 @@
 }
 .box:nth-child(1) {
     background-color: #122838;
+    grid-column: col / span 2;
+    grid-row: row;
 }
 .box:nth-child(2) {
     background-color: #183449;
