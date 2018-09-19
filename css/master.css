@@ -40,6 +40,8 @@
 }
 .box:nth-child(6) {
     background-color: #3e86bb;
+    grid-column: 1;
+    grid-row: 3;
 }
 .box:nth-child(7) {
     background-color: #4698d4;
