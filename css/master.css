@@ -37,6 +37,8 @@
 }
 .box:nth-child(5) {
     background-color: #34719e;
+    grid-column: col 3;
+    grid-row: row 3;
 }
 .box:nth-child(6) {
     background-color: #3e86bb;
