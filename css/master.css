@@ -1,12 +1,14 @@
 /* Grid CSS */
 .wrapper {
+    /* Mobile */
     display: grid;
     grid-gap: 3px;
-    grid-template-columns: 120px 120px 120px;
     grid-template-areas:
-        '. encabezado encabezado'
-        'barra-lateral contenido contenido'
-        'pie-pagina pie-pagina pie-pagina';
+        'encabezado'
+        'barra-lateral'
+        'contenido'
+        'barra-lateral-2'
+        'pie-pagina';
 
     border: 1px solid #999;
     padding: 10px;
@@ -19,6 +21,9 @@
 }
 .content {
     grid-area: contenido;        /* Nombre del área */
+}
+.sidebar-2 {
+    grid-area: barra-lateral-2;    /* Nombre del área */
 }
 .footer {
     grid-area: pie-pagina;       /* Nombre del área */
