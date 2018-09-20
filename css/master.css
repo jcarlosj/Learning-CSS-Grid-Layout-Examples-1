@@ -23,6 +23,17 @@
             'pie-pagina pie-pagina';
     }
 }
+@media only screen and ( min-width: 900px ) {
+    .wrapper {
+        grid-gap: 6px;
+        grid-template-columns: 120px auto 120px;
+        grid-template-areas:
+            'encabezado encabezado encabezado'
+            'barra-lateral contenido barra-lateral-2'
+            'pie-pagina pie-pagina pie-pagina';
+        max-width: 1024px;   
+    }
+}
 .header {
     grid-area: encabezado;       /* Nombre del área */
 }
