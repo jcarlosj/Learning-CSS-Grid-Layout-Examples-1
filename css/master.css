@@ -4,7 +4,6 @@
     grid-gap: 3px;
     grid-template-columns: repeat( 5, 120px );
     grid-template-rows: repeat( 3, 100px );
-    grid-auto-flow: column;            /* Cambio el flujo natural o comportamiento natural de la grilla */
 
     border: 1px solid #999;
     padding: 10px;
