@@ -50,4 +50,7 @@
 }
 .box.overlay {
     background-color: orange;
+    grid-column: contenido-start / contenido-end;
+    grid-row: encabezado-start / contenido-end;
+    z-index: 10;
 }
