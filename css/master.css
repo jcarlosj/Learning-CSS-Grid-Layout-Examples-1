@@ -47,8 +47,29 @@
 }
 .content {
     grid-area: contenido;
+    padding: 40px 25px;
+    position: relative;
     text-align: justify;
 }
 .footer {
     grid-area: pie-pagina;
+}
+.arrow {
+    position: absolute;
+}
+.arrow-topleft {
+    top: 0;
+    left: 0;
+}
+.arrow-topright {
+    top: 0;
+    right: 0;
+}
+.arrow-bottomleft {
+    bottom: 0;
+    left: 0;
+}
+.arrow-bottomright {
+    bottom: 0;
+    right: 0;
 }
