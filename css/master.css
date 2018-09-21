@@ -18,18 +18,28 @@
 }
 .box:nth-child(1) {
     background-color: #122838;
+    grid-column: col / span 2;
+    grid-row: row;
 }
 .box:nth-child(2) {
     background-color: #183449;
+    grid-column: col 3 / span 3;
+    grid-row: row;
 }
 .box:nth-child(3) {
     background-color: #204662;
+    grid-column: col;
+    grid-row: row 2;
 }
 .box:nth-child(4) {
     background-color: #2a5b7f;
+    grid-column: col 2 / span 3;
+    grid-row: row 2;
 }
 .box:nth-child(5) {
     background-color: #34719e;
+    grid-column:  col / span 5;
+    grid-row: row 3;
 }
 .box:nth-child(6) {
     background-color: #3e86bb;
