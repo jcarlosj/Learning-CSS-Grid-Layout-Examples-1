@@ -2,11 +2,7 @@
 .wrapper {
     display: grid;
     grid-gap: 3px;
-    grid-template-columns: repeat( 3, 200px );
-    grid-template-areas:
-        'encabezado encabezado encabezado'
-        'barra-lateral contenido contenido'
-        'pie-pagina pie-pagina pie-pagina';
+    grid-template-columns: repeat( 5, 120px );
 
     border: 1px solid #999;
     padding: 10px;
@@ -18,58 +14,11 @@
     text-align: center;
     padding: 10px;
 }
-.box:nth-child(1) {
+.box:nth-child( even ) {
     background-color: #122838;
+    color: #4698d4;
 }
-.box:nth-child(2) {
-    background-color: #183449;
-}
-.box:nth-child(3) {
-    background-color: #204662;
-}
-.box:nth-child(4) {
-    background-color: #2a5b7f;
-}
-.box:nth-child(5) {
-    background-color: #34719e;
-}
-.box:nth-child(6) {
-    background-color: #3e86bb80;
-}
-.box:nth-child(7) {
+.box:nth-child( odd ) {
     background-color: #4698d4;
-}
-.header {
-    grid-area: encabezado;
-}
-.sidebar {
-    grid-area: barra-lateral;
-}
-.content {
-    grid-area: contenido;
-    padding: 40px 25px;
-    position: relative;
-    text-align: justify;
-}
-.footer {
-    grid-area: pie-pagina;
-}
-.arrow {
-    position: absolute;
-}
-.arrow-topleft {
-    top: 0;
-    left: 0;
-}
-.arrow-topright {
-    top: 0;
-    right: 0;
-}
-.arrow-bottomleft {
-    bottom: 0;
-    left: 0;
-}
-.arrow-bottomright {
-    bottom: 0;
-    right: 0;
+    color: #122838;
 }
