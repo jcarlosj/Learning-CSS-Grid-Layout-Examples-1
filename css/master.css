@@ -42,7 +42,13 @@
     grid-row: row 3;
 }
 .box:nth-child(6) {
-    background-color: #3e86bb;
+    background-color: #3e86bb80;
+    grid-column: col 3 / span 3;
+    grid-row: row 2;
+
+    border: 3px dotted black;
+    box-sizing: border-box;
+    z-index: 20;
 }
 .box:nth-child(7) {
     background-color: #4698d4;
