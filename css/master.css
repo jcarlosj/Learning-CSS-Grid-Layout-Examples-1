@@ -24,3 +24,9 @@
     background-color: #4698d4;
     color: #122838;
 }
+.box.box-2 {
+    background-color: white;
+    border: 1px solid #122838;
+    box-sizing: border-box;
+    color: black;
+}
