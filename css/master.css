@@ -25,6 +25,9 @@
     color: #122838;
 }
 .box.box-2 {
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+
     background-color: white;
     border: 1px solid #122838;
     box-sizing: border-box;
